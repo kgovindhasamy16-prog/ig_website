@@ -2343,3 +2343,8 @@ body {
 .dropdown-menu .dropdown-item {
   white-space: nowrap;
 }
+
+/* Accessibility: Show dropdown on focus */
+.dropdown-submenu:focus-within>.dropdown-menu {
+  display: block;
+}

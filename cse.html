@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Science & Engineering - Indra Ganesan College of Engineering</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar bg-primary text-white py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <small><i class="bi bi-envelope"></i> principal@igceng.com |
+                        <i class="bi bi-telephone"></i> +91-431-1234567</small>
+                </div>
+                <div class="col-md-4 text-center">
+                    <small class="fw-bold">
+                        <i class="bi bi-award me-1"></i> Counseling Code:
+                        <span class="badge bg-light text-dark">3831</span>
+                    </small>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <small>
+                        <a href="https://admission.indraganesan.org/"
+                            class="text-white text-decoration-none me-3">Online
+                            Admissions</a>
+                        <a href="https://www.facebook.com/p/Indra-Ganesan-Institutions-100069961153286/" target="_blank"
+                            class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/indra_ganesan_institutions/" target="_blank"
+                            class="text-white text-decoration-none"><i class="bi bi-instagram"></i></a>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <!-- Centered Logo and Text -->
+            <div class="navbar-brand-center d-flex flex-column align-items-center w-100 mb-3 mb-lg-0">
+                <a href="index.html" class="d-flex align-items-center text-decoration-none flex-column flex-md-row">
+                    <img src="assets/images/logos/igce_logo.jpg" alt="Logo"
+                        class="navbar-center-logo mb-3 mb-md-0 me-md-3" />
+                    <div class="navbar-brand-center-content text-center text-md-start">
+                        <div class="tamil-text">இந்திரா கணேசன் பொறியியல் கல்லூரி</div>
+                        <div class="english-text">
+                            Indra Ganesan College of Engineering
+                        </div>
+                        <div class="autonomous-text">An Autonomous Institution</div>
+                        <div class="address-text">
+                            Manikandam, Tiruchirapalli, Tamil Nadu, India. 620 012
+                        </div>
+                        <div class="accreditation-text">
+                            (Accredited with B++ Grade by NAAC)
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Container -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-first-row justify-content-center w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="about.html#vision">Vision & Mission</a></li>
+                            <li><a class="dropdown-item" href="about.html#management">Management</a></li>
+                            <li><a class="dropdown-item" href="about.html#governance">Governance</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="academicsDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Academics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="courses.html">Courses</a></li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle active" href="departments.html">Departments</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="departments.html#agri">Agricultural
+                                            Engineering</a></li>
+                                    <li><a class="dropdown-item" href="ai_ds.html">Artificial Intelligence & Data
+                                            Science</a></li>
+                                    <li><a class="dropdown-item" href="departments.html#bme">Bio-Medical Engineering</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="departments.html#civil">Civil Engineering</a>
+                                    </li>
+                                    <li><a class="dropdown-item active" href="cse.html">Computer Science &
+                                            Engineering</a></li>
+                                    <li><a class="dropdown-item" href="departments.html#eee">Electrical & Electronics
+                                            Engineering</a></li>
+                                    <li><a class="dropdown-item" href="departments.html#ece">Electronics & Communication
+                                            Engineering</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="departments.html#it">Information Technology</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="departments.html#mech">Mechanical Engineering</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="departments.html#mba">Business Administration</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="https://cac.annauniv.edu/" target="_blank">Syllabi</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://admission.indraganesan.org/">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placement.html">COE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placement.html">NAAC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placement.html">Placements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ifactory.html">iFactory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <!-- Second Row of Navigation (Simplified for brevity, matches index.html) -->
+                <ul class="navbar-nav nav-second-row justify-content-center w-100">
+                    <li class="nav-item"><a class="nav-link" href="placement.html">General Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="placement.html">Committee</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="studentsDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Student's Corner
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">NSS</a></li>
+                            <li><a class="dropdown-item" href="about.html#vision">RRC</a></li>
+                            <li><a class="dropdown-item" href="about.html#management">YRC</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="placement.html">Skills Based Education</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="newsletterDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Newsletter
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Latest Newsletters</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="virtualtour.html">Virtual Tour</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header text-white py-5">
+        <div class="container">
+            <h1 class="display-4">Computer Science & Engineering</h1>
+            <p class="lead">Building the Digital Future</p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item"><a href="departments.html" class="text-white">Academics</a></li>
+                    <li class="breadcrumb-item active text-white">Computer Science</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Image Carousel (Bootstrap) -->
+    <section class="py-4">
+        <div class="container">
+            <div id="deptCarousel" class="carousel slide rounded-4 overflow-hidden border" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="assets/images/ifactory/ifactory_control_center.png" class="d-block w-100"
+                            alt="CSE Lab View" style="height: 400px; object-fit: cover;">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="assets/images/ifactory/ifactory_lab_view.png" class="d-block w-100"
+                            alt="Computing Center" style="height: 400px; object-fit: cover;">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="assets/images/ifactory/ifactory_robotics_station.png" class="d-block w-100"
+                            alt="Project Lab" style="height: 400px; object-fit: cover;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#deptCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#deptCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="mb-4 text-primary fw-bold">About the Department</h2>
+                    <p class="lead text-muted">
+                        The Department of Computer Science and Engineering is committed to providing a solid technical
+                        foundation and research capabilities in computing. We prepare professionals who can adapt to the
+                        rapidly changing technology landscape and contribute effectively to the software industry and
+                        society.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <h3 class="text-primary mb-3"><i class="bi bi-eye me-2"></i>Vision</h3>
+                        <p>To evolve as a centre of academic excellence in Computer Science and Engineering by producing
+                            globally competent professionals with ethical values.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <h3 class="text-primary mb-3"><i class="bi bi-bullseye me-2"></i>Mission</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> To provide
+                                high-quality technical education through modern teaching-learning practices.</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> To promote
+                                research, innovation, and entrepreneurship in computing domains.</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> To inculcate
+                                ethical behavior, leadership skills, and social responsibility.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs & Eligibility -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Programs Offered</h3>
+                    <div class="card border border-primary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary fw-bold">B.E. - Computer Science & Engineering
+                            </h5>
+                            <span class="badge bg-primary">Undergraduate</span>
+                            <span class="badge bg-secondary">4 Years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Eligibility Criteria</h3>
+                    <div class="card h-100 bg-light border-0">
+                        <div class="card-body">
+                            <ul class="mb-0">
+                                <li class="mb-2"><strong>General Quota:</strong> Candidates should have passed the
+                                    Higher Secondary Examination (10+2) or equivalent with Mathematics, Physics, and
+                                    Chemistry.</li>
+                                <li class="mb-2"><strong>Lateral Entry:</strong> Diploma holders in relevant branches of
+                                    Engineering or B.Sc. in Mathematics are eligible for direct admission to the second
+                                    year.</li>
+                                <li>Admissions are based on the guidelines prescribed by the Directorate of Technical
+                                    Education (DoTE), Tamil Nadu.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Focus Areas -->
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-5 text-white">Key Focus Areas</h2>
+            <div class="row g-4 text-center">
+                <div class="col-md-3 col-6">
+                    <div class="p-3 border border-secondary rounded">
+                        <i class="bi bi-laptop display-4 mb-3 text-info"></i>
+                        <h5 class="text-white mb-0">Software Engineering</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="p-3 border border-secondary rounded">
+                        <i class="bi bi-cloud-arrow-up display-4 mb-3 text-info"></i>
+                        <h5 class="text-white mb-0">Cloud Computing</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="p-3 border border-secondary rounded">
+                        <i class="bi bi-shield-lock display-4 mb-3 text-info"></i>
+                        <h5 class="text-white mb-0">Cyber Security</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="p-3 border border-secondary rounded">
+                        <i class="bi bi-cpu display-4 mb-3 text-info"></i>
+                        <h5 class="text-white mb-0">Internet of Things</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infrastructure -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Infrastructure & Facilities</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-2 text-center">
+                    <!-- Reduced height and ensured responsiveness -->
+                    <img src="assets/images/ifactory/ifactory_lab_view.png" class="img-fluid rounded shadow"
+                        alt="CSE Lab" style="max-height: 350px; object-fit: cover; width: 100%;">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <p class="lead pt-3 pt-md-0">
+                        The department features state-of-the-art laboratories with high-end workstations and the
+                        latest software development tools.
+                    </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="bi bi-pc-display me-2 text-primary"></i> Advanced
+                            Programming Labs</li>
+                        <li class="list-group-item"><i class="bi bi-router me-2 text-primary"></i> Networking & Security
+                            Lab</li>
+                        <li class="list-group-item"><i class="bi bi-database me-2 text-primary"></i> Data Science & Big
+                            Data Center</li>
+                        <li class="list-group-item"><i class="bi bi-lightbulb me-2 text-primary"></i> Incubation &
+                            Innovation Hub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opportunities & Career -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="mb-4">Student Opportunities</h3>
+                    <p>Students are encouraged to participate in national hackathons, open-source contributions, and
+                        industry internships. Our "Coding Club" and "CSI Student Chapter" organize regular tech talks
+                        and coding contests.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="mb-4">Career Pathways</h3>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge bg-dark p-2">Software Developer</span>
+                        <span class="badge bg-dark p-2">System Architect</span>
+                        <span class="badge bg-dark p-2">Network Engineer</span>
+                        <span class="badge bg-dark p-2">Cyber Security Analyst</span>
+                        <span class="badge bg-dark p-2">Full Stack Developer</span>
+                        <span class="badge bg-dark p-2">Cloud Engineer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Contact</h2>
+            <p class="lead mb-1">Department of Computer Science & Engineering</p>
+            <p><i class="bi bi-envelope me-2"></i> hod.cse@igceng.com</p>
+            <p><i class="bi bi-telephone me-2"></i> +91-431-1234567 (Ext: 206)</p>
+        </div>
+    </section>
+
+    <!-- Footer (Matches index.html) -->
+    <footer class="bg-dark text-white pt-5 position-relative">
+        <!-- Back to Top Button -->
+        <a href="#" class="footer-back-to-top">
+            <i class="bi bi-chevron-up"></i>
+        </a>
+
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="mb-4">Indra Ganesan College of Engineering</h5>
+                    <p>
+                        Premier institution committed to excellence in technical education
+                        since 2008.
+                    </p>
+                    <span class="footer-badge">
+                        <i class="bi bi-award me-1"></i> NAAC B++ Accredited
+                    </span>
+                    <div class="d-flex mt-4">
+                        <a href="https://www.facebook.com/p/Indra-Ganesan-Institutions-100069961153286/"
+                            class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/indra_ganesan_institutions/"
+                            class="text-white text-decoration-none"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">Home</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="about.html" class="text-white text-decoration-none">About</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="courses.html" class="text-white text-decoration-none">Courses</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="admissions.html" class="text-white text-decoration-none">Admissions</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="contact.html" class="text-white text-decoration-none">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="mb-4">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <i class="bi bi-geo-alt me-2"></i> Indra Ganesan College of
+                            Engineering<br />
+                            IG Valley, Manikandam,<br />
+                            Thiruchirappalli - 620 012<br />
+                            Tamil Nadu, India
+                        </li>
+                        <li class="mb-3">
+                            <i class="bi bi-envelope me-2"></i> principal@igceng.com
+                        </li>
+                        <li class="mb-3">
+                            <i class="bi bi-telephone me-2"></i> +91-431-1234567
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="mb-4">Newsletter</h5>
+                    <p>Subscribe to our newsletter for the latest updates.</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Your email" />
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4" />
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">
+                        Designed & Developed by
+                        <a href="www.judahcodetechnologies.com">Judah Code Technologies.</a>
+                        © 2024 All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

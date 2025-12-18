@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iFactory Network Lab - Indra Ganesan College of Engineering</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/jpg" href="assets/images/logos/igce_logo.jpg" />
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar bg-primary text-white py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <small><i class="bi bi-envelope"></i> principal@igceng.com |
+                        <i class="bi bi-telephone"></i> +91-431-1234567</small>
+                </div>
+                <div class="col-md-4 text-center">
+                    <small class="fw-bold">
+                        <i class="bi bi-award me-1"></i> Counseling Code:
+                        <span class="badge bg-light text-dark">3831</span>
+                    </small>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <small>
+                        <a href="https://admission.indraganesan.org/"
+                            class="text-white text-decoration-none me-3">Online
+                            Admissions</a>
+                        <a href="https://www.facebook.com/p/Indra-Ganesan-Institutions-100069961153286/" target="_blank"
+                            class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/indra_ganesan_institutions/" target="_blank"
+                            class="text-white text-decoration-none"><i class="bi bi-instagram"></i></a>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <!-- Centered Logo and Text -->
+            <div class="navbar-brand-center d-flex flex-column align-items-center w-100 mb-3 mb-lg-0">
+                <a href="index.html" class="d-flex align-items-center text-decoration-none flex-column flex-md-row">
+                    <img src="assets/images/logos/igce_logo.jpg" alt="Logo"
+                        class="navbar-center-logo mb-3 mb-md-0 me-md-3" />
+                    <div class="navbar-brand-center-content text-center text-md-start">
+                        <div class="tamil-text">இந்திரா கணேசன் பொறியியல் கல்லூரி</div>
+                        <div class="english-text">
+                            Indra Ganesan College of Engineering
+                        </div>
+                        <div class="autonomous-text">An Autonomous Institution</div>
+                        <div class="address-text">
+                            Manikandam, Tiruchirapalli, Tamil Nadu, India. 620 012
+                        </div>
+                        <div class="accreditation-text">
+                            (Accredited with B++ Grade by NAAC)
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Container -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- First Row of Navigation -->
+                <ul class="navbar-nav nav-first-row justify-content-center w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="about.html#vision">Vision & Mission</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="about.html#management">Management</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="about.html#governance">Governance</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="academicsDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Academics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="courses.html">Courses</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="departments.html">Departments</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://cac.annauniv.edu/" target="_blank">Syllabi</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://admission.indraganesan.org/">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placement.html">COE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placement.html">NAAC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placement.html">Placements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="ifactory.html">iFactory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <!-- Second Row of Navigation -->
+                <ul class="navbar-nav nav-second-row justify-content-center w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="placement.html">General Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placement.html">Committee</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="studentsDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Student's Corner
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="about.html">NSS</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="about.html#vision">RRC</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="about.html#management">YRC</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placement.html">Skills Based Education</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="newsletterDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Newsletter
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">
+                                    2025 - 2026
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2025/25-jun.pdf"
+                                            target="_blank">June</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2025/25-apr.pdf"
+                                            target="_blank">April</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2025/25-mar.pdf"
+                                            target="_blank">March</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2025/25-feb.pdf"
+                                            target="_blank">Febraury</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2025/25-jan.pdf"
+                                            target="_blank">January</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">
+                                    2024 - 2025
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2024/24-dec.pdf"
+                                            target="_blank">December</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2024/24-nov.pdf"
+                                            target="_blank">November</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2024/24-oct.pdf"
+                                            target="_blank">October</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2024/24-aug.pdf"
+                                            target="_blank">August</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2024/24-jul.pdf"
+                                            target="_blank">July</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2024/24-jun.pdf"
+                                            target="_blank">June</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2024/24-may.pdf"
+                                            target="_blank">May</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2024/24-apr.pdf"
+                                            target="_blank">April</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2024/24-mar.pdf"
+                                            target="_blank">March</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2024/24-feb.pdf"
+                                            target="_blank">Febraury</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2024/24-jan.pdf"
+                                            target="_blank">January</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">
+                                    2023 - 2024
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2023/23-dec.pdf"
+                                            target="_blank">December</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2023/23-nov.pdf"
+                                            target="_blank">November</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2023/23-oct.pdf"
+                                            target="_blank">October</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2023/23-aug.pdf"
+                                            target="_blank">August</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2023/23-jul.pdf"
+                                            target="_blank">July</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="assets/newsletter/2023/23-jun.pdf"
+                                            target="_blank">June</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="facilities.html">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="virtualtour.html">Virtual Tour</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-header text-white py-5 position-relative overflow-hidden">
+        <div class="container position-relative z-2">
+            <h1 class="display-4 fw-bold mb-3">iFactory Network Lab</h1>
+            <p class="lead mb-4 opacity-75">Empowering India's Manufacturing Future</p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-transparent p-0 mb-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white text-decoration-none">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">iFactory</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- About & Purpose Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <span
+                        class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-3 py-2 mb-4">
+                        <i class="bi bi-star-fill me-1"></i> National Model of Smart Manufacturing
+                    </span>
+                    <h2 class="display-6 fw-bold mb-4">Bridging Industry & Academia</h2>
+                    <p class="lead text-muted mb-5">
+                        The <strong>iFactory Network Lab</strong> at IGCE is a prestigious initiative by the
+                        <strong>Ministry of Heavy Industries (MHI)</strong>, Govt. of India, implemented by
+                        <strong>C4i4 Lab, Pune</strong>. We demonstrate how Industry 4.0 technologies facilitate
+                        digital transformation in factories, education, and workforce development.
+                    </p>
+
+                    <div class="row g-4 justify-content-center align-items-center mb-5">
+                        <div class="col-auto">
+                            <div class="d-flex align-items-center bg-light px-4 py-3 rounded-4 border">
+                                <i class="bi bi-bank fs-2 text-secondary me-3"></i>
+                                <div class="text-start">
+                                    <small class="d-block text-muted text-uppercase fw-bold"
+                                        style="font-size: 0.7rem;">Supported By</small>
+                                    <span class="fw-bold text-dark">MHI, Govt. of India</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="d-flex align-items-center bg-light px-4 py-3 rounded-4 border">
+                                <i class="bi bi-gear-wide-connected fs-2 text-secondary me-3"></i>
+                                <div class="text-start">
+                                    <small class="d-block text-muted text-uppercase fw-bold"
+                                        style="font-size: 0.7rem;">Implemented By</small>
+                                    <span class="fw-bold text-dark">C4i4 Lab, Pune</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center pt-2">
+                <div class="col-lg-12">
+                    <div class="bg-primary text-white rounded-4 p-4 p-md-5 text-center shadow">
+                        <h3 class="fw-bold mb-3">Our Core Purpose</h3>
+                        <p class="fs-5 opacity-90 mb-0" style="max-width: 900px; margin: 0 auto;">
+                            To create an experiential platform where students, MSMEs, and professionals
+                            can learn and apply Industry 4.0 technologies — driving innovation and sustainable growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smart Factory Demonstrations (The What) -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="ps-lg-4">
+                        <small class="text-primary text-uppercase fw-bold ls-1 mb-2 d-block">Experience the
+                            Future</small>
+                        <h2 class="fw-bold mb-4">Live Smart Factory Demonstrations</h2>
+                        <p class="text-muted mb-4">
+                            Witness a fully functional smart factory setup showcasing real-time data flow,
+                            automation, and intelligent decision-making systems.
+                        </p>
+
+                        <div class="row g-4 mt-2">
+                            <div class="col-md-6">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <i class="bi bi-robot fs-4 text-primary bg-white p-2 rounded-3 shadow-sm"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h6 class="fw-bold mb-1">AGV Automation</h6>
+                                        <small class="text-muted">Automated material movement systems.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <i class="bi bi-eye fs-4 text-primary bg-white p-2 rounded-3 shadow-sm"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h6 class="fw-bold mb-1">Vision Cobots</h6>
+                                        <small class="text-muted">Collaborative robots with intelligent vision.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <i
+                                            class="bi bi-hdd-network fs-4 text-primary bg-white p-2 rounded-3 shadow-sm"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h6 class="fw-bold mb-1">Smart Conveyors</h6>
+                                        <small class="text-muted">IoT-enabled production flow control.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <i class="bi bi-laptop fs-4 text-primary bg-white p-2 rounded-3 shadow-sm"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h6 class="fw-bold mb-1">Kizuna Software</h6>
+                                        <small class="text-muted">Connecting machines to actionable data.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Visual Placeholder -->
+                <div class="col-lg-6">
+                    <div class="rounded-4 overflow-hidden position-relative shadow-lg"
+                        style="height: 400px; background-color: #e9ecef;">
+                        <!-- Ideally replace with specific machine photo -->
+                        <div class="position-absolute top-50 start-50 translate-middle text-center text-muted">
+                            <i class="bi bi-gear-wide-connected display-1 opacity-25 mb-3"></i>
+                            <p class="mb-0 fw-bold">Smart Factory Setup</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Benefits (The Why) -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <small class="text-uppercase text-muted fw-bold ls-1">Why Visit?</small>
+                <h2 class="fw-bold">Impact & Benefits</h2>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border text-center p-4 hover-lift rounded-4 bg-light">
+                        <div class="mb-3">
+                            <i class="bi bi-graph-up-arrow fs-1 text-primary"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Boost Productivity</h5>
+                        <p class="text-muted small mb-0">Learn techniques to optimize workflows and reduce downtime.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border text-center p-4 hover-lift rounded-4 bg-light">
+                        <div class="mb-3">
+                            <i class="bi bi-lightning-charge fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Enhance Efficiency</h5>
+                        <p class="text-muted small mb-0">Discover smart tools that streamline operations seamlessly.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border text-center p-4 hover-lift rounded-4 bg-light">
+                        <div class="mb-3">
+                            <i class="bi bi-tree fs-1 text-success"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Sustainable Growth</h5>
+                        <p class="text-muted small mb-0">Adopt eco-friendly, energy-efficient manufacturing practices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audience (Who) -->
+    <section class="py-5 border-top border-bottom">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5">
+                    <h2 class="fw-bold mb-4">Who Should Visit?</h2>
+                    <p class="text-muted lead mb-4">
+                        Our lab offers tailored value for every stakeholder in the manufacturing ecosystem.
+                    </p>
+                    <a href="#contact" class="btn btn-primary px-4 py-2 rounded-pill">
+                        Plan Your Visit <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="p-4 border rounded-4 h-100 bg-white shadow-sm">
+                                <h5 class="fw-bold text-dark mb-2"><i class="bi bi-building text-primary me-2"></i>
+                                    Industry Leaders</h5>
+                                <p class="small text-muted mb-0">Explore transformation pathways.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-4 border rounded-4 h-100 bg-white shadow-sm">
+                                <h5 class="fw-bold text-dark mb-2"><i class="bi bi-mortarboard text-success me-2"></i>
+                                    Students</h5>
+                                <p class="small text-muted mb-0">Gain hands-on tech exposure.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-4 border rounded-4 h-100 bg-white shadow-sm">
+                                <h5 class="fw-bold text-dark mb-2"><i class="bi bi-people text-info me-2"></i> Faculty
+                                </h5>
+                                <p class="small text-muted mb-0">Collaborate on applied research.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-4 border rounded-4 h-100 bg-white shadow-sm">
+                                <h5 class="fw-bold text-dark mb-2"><i class="bi bi-tools text-secondary me-2"></i>
+                                    Operators</h5>
+                                <p class="small text-muted mb-0">Understand smart tools.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs & Courses (Strict Grid) -->
+    <section id="ifactory-programs" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <small class="text-uppercase text-muted fw-bold ls-1">Learning Opportunities</small>
+                <h2 class="fw-bold">Programs & Courses</h2>
+            </div>
+
+            <div class="row g-4">
+                <!-- Course 1 -->
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                        <div class="card-header bg-primary text-white text-center py-3">
+                            <h5 class="mb-0 fw-bold text-white">Industry 4.0 Bootcamp</h5>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3 text-center">
+                                <span class="badge bg-primary-subtle text-primary mb-2">3 Days</span>
+                                <h6 class="text-muted small">For MSMEs & Students</h6>
+                            </div>
+                            <ul class="list-unstyled small text-muted mb-4 flex-grow-1">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Hands-on Tech
+                                    Experience</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Industry
+                                    Exposure</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Certification
+                                </li>
+                            </ul>
+                            <a href="#contact" class="btn btn-outline-primary w-100 mt-auto rounded-pill">Enquire
+                                Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                        <div class="card-header bg-success text-white text-center py-3">
+                            <h5 class="mb-0 fw-bold text-white">Smart Mfg Workshop</h5>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3 text-center">
+                                <span class="badge bg-success-subtle text-success mb-2">2 Days</span>
+                                <h6 class="text-muted small">For Professionals</h6>
+                            </div>
+                            <ul class="list-unstyled small text-muted mb-4 flex-grow-1">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    Implementation Skills</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Networking
+                                </li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Maturity
+                                    Assessment</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-outline-success w-100 mt-auto rounded-pill">Enquire
+                                Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                        <div class="card-header bg-dark text-white text-center py-3">
+                            <h5 class="mb-0 fw-bold text-white">Robotics Certification</h5>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3 text-center">
+                                <span class="badge bg-secondary-subtle text-dark mb-2">5 Days</span>
+                                <h6 class="text-muted small">For Enthusiasts</h6>
+                            </div>
+                            <ul class="list-unstyled small text-muted mb-4 flex-grow-1">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-dark me-2"></i> Robot
+                                    Programming</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-dark me-2"></i> Operations
+                                    Training</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-dark me-2"></i> Expert
+                                    Mentorship</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-outline-dark w-100 mt-auto rounded-pill">Enquire Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Infrastructure Grid (New) -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Lab Infrastructure</h2>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="rounded-4 overflow-hidden border shadow-sm position-relative group"
+                        style="height: 250px;">
+                        <img src="assets/images/ifactory/ifactory_lab_view.png" class="w-100 h-100 object-fit-cover"
+                            alt="High-Tech Lab View">
+                        <div
+                            class="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-2 text-center text-small">
+                            High-Tech Lab View
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="rounded-4 overflow-hidden border shadow-sm position-relative group"
+                        style="height: 250px;">
+                        <img src="assets/images/ifactory/ifactory_robotics_station.png"
+                            class="w-100 h-100 object-fit-cover" alt="Robotics Station">
+                        <div
+                            class="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-2 text-center text-small">
+                            Robotics Station
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="rounded-4 overflow-hidden border shadow-sm position-relative group"
+                        style="height: 250px;">
+                        <img src="assets/images/ifactory/ifactory_control_center.png"
+                            class="w-100 h-100 object-fit-cover" alt="Control Center">
+                        <div
+                            class="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-2 text-center text-small">
+                            Control Center
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="contact" class="py-5 bg-primary text-white text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold mb-3">Ready to Transform?</h2>
+                    <p class="lead mb-4 opacity-90">Visit the iFactory Network Lab to see the future of manufacturing in
+                        action.</p>
+                    <div class="d-flex justify-content-center gap-3 flex-column flex-sm-row">
+                        <a href="contact.html"
+                            class="btn btn-light btn-lg text-primary fw-bold rounded-pill px-5">Contact Us</a>
+                        <a href="tel:+914311234567" class="btn btn-outline-light btn-lg rounded-pill px-5">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-5 position-relative">
+        <!-- Back to Top Button -->
+        <a href="#" class="footer-back-to-top">
+            <i class="bi bi-chevron-up"></i>
+        </a>
+
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="mb-4">Indra Ganesan College of Engineering</h5>
+                    <p>
+                        Premier institution committed to excellence in technical education
+                        since 2008.
+                    </p>
+                    <span class="footer-badge">
+                        <i class="bi bi-award me-1"></i> NAAC B++ Accredited
+                    </span>
+                    <div class="d-flex mt-4">
+                        <a href="https://www.facebook.com/p/Indra-Ganesan-Institutions-100069961153286/"
+                            class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/indra_ganesan_institutions/"
+                            class="text-white text-decoration-none"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">Home</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="about.html" class="text-white text-decoration-none">About</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="courses.html" class="text-white text-decoration-none">Courses</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="admissions.html" class="text-white text-decoration-none">Admissions</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="contact.html" class="text-white text-decoration-none">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="mb-4">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <i class="bi bi-geo-alt me-2"></i> Indra Ganesan College of
+                            Engineering<br />
+                            IG Valley, Manikandam,<br />
+                            Thiruchirappalli - 620 012<br />
+                            Tamil Nadu, India
+                        </li>
+                        <li class="mb-3">
+                            <i class="bi bi-envelope me-2"></i> principal@igceng.com
+                        </li>
+                        <li class="mb-3">
+                            <i class="bi bi-telephone me-2"></i> +91-431-1234567
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="mb-4">Newsletter</h5>
+                    <p>Subscribe to our newsletter for the latest updates.</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Your email" />
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4" />
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="small mb-0">
+                        &copy; 2024 Indra Ganesan College of Engineering. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="list-inline small mb-0">
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white text-decoration-none">Privacy Policy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white text-decoration-none">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

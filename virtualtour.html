@@ -1,79 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Indra Ganesan College of Engineering</title>
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- Top Bar -->
-    <div class="top-bar bg-primary text-white py-2">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-4">
-            <small
-              ><i class="bi bi-envelope"></i> principal@igceng.com |
-              <i class="bi bi-telephone"></i> +91-431-1234567</small
-            >
-          </div>
-          <div class="col-md-4 text-center">
-            <small class="fw-bold">
-              <i class="bi bi-award me-1"></i> Counseling Code:
-              <span class="badge bg-light text-dark">3831</span>
-            </small>
-          </div>
-          <div class="col-md-4 text-md-end">
-            <small>
-              <a
-                href="https://admission.indraganesan.org/"
-                class="text-white text-decoration-none me-3"
-                >Online Admissions</a
-              >
-              <a
-                href="https://www.facebook.com/p/Indra-Ganesan-Institutions-100069961153286/"
-                target="_blank"
-                class="text-white text-decoration-none me-3"
-                ><i class="bi bi-facebook"></i
-              ></a>
-              <a
-                href="https://www.instagram.com/indra_ganesan_institutions/"
-                target="_blank"
-                class="text-white text-decoration-none"
-                ><i class="bi bi-instagram"></i
-              ></a>
-            </small>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indra Ganesan College of Engineering</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <div class="top-bar bg-primary text-white py-2">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <small><i class="bi bi-envelope"></i> principal@igceng.com |
+            <i class="bi bi-telephone"></i> +91-431-1234567</small>
+        </div>
+        <div class="col-md-4 text-center">
+          <small class="fw-bold">
+            <i class="bi bi-award me-1"></i> Counseling Code:
+            <span class="badge bg-light text-dark">3831</span>
+          </small>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <small>
+            <a href="https://admission.indraganesan.org/" class="text-white text-decoration-none me-3">Online
+              Admissions</a>
+            <a href="https://www.facebook.com/p/Indra-Ganesan-Institutions-100069961153286/" target="_blank"
+              class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/indra_ganesan_institutions/" target="_blank"
+              class="text-white text-decoration-none"><i class="bi bi-instagram"></i></a>
+          </small>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-      <div class="container">
-        <!-- Regular navbar brand for larger screens -->
-        <a class="navbar-brand d-none d-sm-flex" href="index.html">
-          <img
-            src="assets/images/logos/igce_logo.jpg"
-            alt="Logo"
-            class="me-2 navbar-logo"
-          />
-          <div class="navbar-brand-content">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <!-- Centered Logo and Text -->
+      <div class="navbar-brand-center d-flex flex-column align-items-center w-100 mb-3 mb-lg-0">
+        <a href="index.html" class="d-flex align-items-center text-decoration-none flex-column flex-md-row">
+          <img src="assets/images/logos/igce_logo.jpg" alt="Logo" class="navbar-center-logo mb-3 mb-md-0 me-md-3" />
+          <div class="navbar-brand-center-content text-center text-md-start">
             <div class="tamil-text">இந்திரா கணேசன் பொறியியல் கல்லூரி</div>
-            <div class="english-text">Indra Ganesan College of Engineering</div>
+            <div class="english-text">
+              Indra Ganesan College of Engineering
+            </div>
             <div class="autonomous-text">An Autonomous Institution</div>
             <div class="address-text">
               Manikandam, Tiruchirapalli, Tamil Nadu, India. 620 012
@@ -83,551 +63,337 @@
             </div>
           </div>
         </a>
-
-        <!-- Compact navbar brand for mobile screens -->
-        <a
-          class="navbar-brand navbar-brand-compact d-flex d-sm-none"
-          href="index.html"
-        >
-          <img
-            src="assets/images/logos/igce_logo.jpg"
-            alt="Logo"
-            class="navbar-logo"
-          />
-          <div class="navbar-brand-content">
-            <div class="english-text">Indra Ganesan College of Engineering</div>
-            <div class="autonomous-text">Autonomous Institution</div>
-          </div>
-        </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="aboutDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
-                About Us
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="about.html">About Us</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="about.html#vision"
-                    >Vision & Mission</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="about.html#management"
-                    >Management</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="about.html#governance"
-                    >Governance</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="academicsDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
-                Academics
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="courses.html">Courses</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="departments.html"
-                    >Departments</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://cac.annauniv.edu/"
-                    target="_blank"
-                    >Syllabi</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://admission.indraganesan.org/"
-                >Admissions</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="placement.html">COE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="placement.html">NAAC</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="placement.html">Placements</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="placement.html">C4I4</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="placement.html">General Info</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="placement.html">Committee</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="aboutDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
-                Student's Corner
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="about.html">NSS</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="about.html#vision">RRC</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="about.html#management">YRC</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="placement.html"
-                >Skills Based Education</a
-              >
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="newsletterDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Newsletter
-              </a>
-
-              <ul class="dropdown-menu" aria-labelledby="newsletterDropdown">
-                <li class="dropdown-submenu">
-                  <a
-                    class="dropdown-item dropdown-toggle"
-                    href="#"
-                    id="yearDropdown"
-                    role="button"
-                  >
-                    2025 - 2026
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="yearDropdown">
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2025/25-jun.pdf"
-                        target="_blank"
-                        >June</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2025/25-apr.pdf"
-                        target="_blank"
-                        >April</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2025/25-mar.pdf"
-                        target="_blank"
-                        >March</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2025/25-feb.pdf"
-                        target="_blank"
-                        >Febraury</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2025/25-jan.pdf"
-                        target="_blank"
-                        >January</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a
-                    class="dropdown-item dropdown-toggle"
-                    href="#"
-                    id="yearDropdown"
-                    role="button"
-                  >
-                    2024 - 2025
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="yearDropdown">
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2024/24-dec.pdf"
-                        target="_blank"
-                        >December</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2024/24-nov.pdf"
-                        target="_blank"
-                        >November</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2024/24-oct.pdf"
-                        target="_blank"
-                        >October</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2024/24-aug.pdf"
-                        target="_blank"
-                        >August</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2024/24-jul.pdf"
-                        target="_blank"
-                        >July</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2024/24-jun.pdf"
-                        target="_blank"
-                        >June</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2024/24-may.pdf"
-                        target="_blank"
-                        >May</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2024/24-apr.pdf"
-                        target="_blank"
-                        >April</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2024/24-mar.pdf"
-                        target="_blank"
-                        >March</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2024/24-feb.pdf"
-                        target="_blank"
-                        >Febraury</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2024/24-jan.pdf"
-                        target="_blank"
-                        >January</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu">
-                  <a
-                    class="dropdown-item dropdown-toggle"
-                    href="#"
-                    id="yearDropdown"
-                    role="button"
-                  >
-                    2023 - 2024
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="yearDropdown">
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2023/23-dec.pdf"
-                        target="_blank"
-                        >December</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2023/23-nov.pdf"
-                        target="_blank"
-                        >November</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2023/23-oct.pdf"
-                        target="_blank"
-                        >October</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2023/23-aug.pdf"
-                        target="_blank"
-                        >August</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2023/23-jul.pdf"
-                        target="_blank"
-                        >July</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="assets/newsletter/2023/23-jun.pdf"
-                        target="_blank"
-                        >June</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="facilities.html">Facilities</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="virtualtour.html">Virtual Tour</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
       </div>
-    </nav>
 
-    <!-- Virtual Tour Section -->
-    <div class="virtual-tour-container">
-      <div class="container">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h1 class="heading1">IGCE - Virtual Tour</h1>
-          </div>
-          <div class="panel-body">
-            <div class="video-wrapper">
-              <div class="video-container">
-                <iframe
-                  src="https://www.youtube.com/embed/lXiN1ilr78w"
-                  title="College Tour | IGCE | @IndraGanesanInstitutions"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                >
-                </iframe>
-              </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Container -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- First Row of Navigation -->
+        <ul class="navbar-nav nav-first-row justify-content-center w-100">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown">
+              About Us
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="about.html">About Us</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="about.html#vision">Vision & Mission</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="about.html#management">Management</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="about.html#governance">Governance</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="academicsDropdown" role="button" data-bs-toggle="dropdown">
+              Academics
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="courses.html">Courses</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="departments.html">Departments</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://cac.annauniv.edu/" target="_blank">Syllabi</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://admission.indraganesan.org/">Admissions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="placement.html">COE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="placement.html">NAAC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="placement.html">Placements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ifactory.html">iFactory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+
+        <!-- Second Row of Navigation -->
+        <ul class="navbar-nav nav-second-row justify-content-center w-100">
+          <li class="nav-item">
+            <a class="nav-link" href="placement.html">General Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="placement.html">Committee</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="studentsDropdown" role="button" data-bs-toggle="dropdown">
+              Student's Corner
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="about.html">NSS</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="about.html#vision">RRC</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="about.html#management">YRC</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="placement.html">Skills Based Education</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="newsletterDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Newsletter
+            </a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">
+                  2025 - 2026
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2025/25-jun.pdf" target="_blank">June</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2025/25-apr.pdf" target="_blank">April</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2025/25-mar.pdf" target="_blank">March</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2025/25-feb.pdf" target="_blank">Febraury</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2025/25-jan.pdf" target="_blank">January</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">
+                  2024 - 2025
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2024/24-dec.pdf" target="_blank">December</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2024/24-nov.pdf" target="_blank">November</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2024/24-oct.pdf" target="_blank">October</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2024/24-aug.pdf" target="_blank">August</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2024/24-jul.pdf" target="_blank">July</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2024/24-jun.pdf" target="_blank">June</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2024/24-may.pdf" target="_blank">May</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2024/24-apr.pdf" target="_blank">April</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2024/24-mar.pdf" target="_blank">March</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2024/24-feb.pdf" target="_blank">Febraury</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2024/24-jan.pdf" target="_blank">January</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">
+                  2023 - 2024
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2023/23-dec.pdf" target="_blank">December</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2023/23-nov.pdf" target="_blank">November</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2023/23-oct.pdf" target="_blank">October</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2023/23-aug.pdf" target="_blank">August</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2023/23-jul.pdf" target="_blank">July</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="assets/newsletter/2023/23-jun.pdf" target="_blank">June</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="facilities.html">Facilities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="virtualtour.html">Virtual Tour</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Virtual Tour Section -->
+  <div class="virtual-tour-container">
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1 class="heading1">IGCE - Virtual Tour</h1>
+        </div>
+        <div class="panel-body">
+          <div class="video-wrapper">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/lXiN1ilr78w"
+                title="College Tour | IGCE | @IndraGanesanInstitutions" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
             </div>
+          </div>
 
-            <!-- Campus Overview Only -->
-            <div class="tour-info">
-              <div class="info-card">
-                <h3>🏛️ Campus Overview</h3>
-                <p>
-                  Explore our state-of-the-art infrastructure, modern
-                  classrooms, and beautiful campus surroundings that provide the
-                  perfect environment for learning and growth. Our campus
-                  features well-equipped laboratories, a comprehensive library,
-                  sports facilities, hostels, and other amenities that make
-                  campus life comfortable and enriching for our students.
-                </p>
-              </div>
+          <!-- Campus Overview Only -->
+          <div class="tour-info">
+            <div class="info-card">
+              <h3>🏛️ Campus Overview</h3>
+              <p>
+                Explore our state-of-the-art infrastructure, modern
+                classrooms, and beautiful campus surroundings that provide the
+                perfect environment for learning and growth. Our campus
+                features well-equipped laboratories, a comprehensive library,
+                sports facilities, hostels, and other amenities that make
+                campus life comfortable and enriching for our students.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <footer class="bg-dark text-white pt-5 position-relative">
-      <!-- Back to Top Button -->
-      <a href="#" class="footer-back-to-top">
-        <i class="bi bi-chevron-up"></i>
-      </a>
+  <footer class="bg-dark text-white pt-5 position-relative">
+    <!-- Back to Top Button -->
+    <a href="#" class="footer-back-to-top">
+      <i class="bi bi-chevron-up"></i>
+    </a>
 
-      <div class="container">
-        <div class="row g-4">
-          <div class="col-lg-4">
-            <h5 class="mb-4">Indra Ganesan College of Engineering</h5>
-            <p>
-              Premier institution committed to excellence in technical education
-              since 2008.
-            </p>
-            <span class="footer-badge">
-              <i class="bi bi-award me-1"></i> NAAC B++ Accredited
-            </span>
-            <div class="d-flex mt-4">
-              <a
-                href="https://www.facebook.com/p/Indra-Ganesan-Institutions-100069961153286/"
-                class="text-white text-decoration-none me-3"
-                ><i class="bi bi-facebook"></i
-              ></a>
-              <a
-                href="https://www.instagram.com/indra_ganesan_institutions/"
-                class="text-white text-decoration-none"
-                ><i class="bi bi-instagram"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-2">
-            <h5 class="mb-4">Quick Links</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2">
-                <a href="index.html" class="text-white text-decoration-none"
-                  >Home</a
-                >
-              </li>
-              <li class="mb-2">
-                <a href="about.html" class="text-white text-decoration-none"
-                  >About</a
-                >
-              </li>
-              <li class="mb-2">
-                <a href="courses.html" class="text-white text-decoration-none"
-                  >Courses</a
-                >
-              </li>
-              <li class="mb-2">
-                <a
-                  href="admissions.html"
-                  class="text-white text-decoration-none"
-                  >Admissions</a
-                >
-              </li>
-              <li class="mb-2">
-                <a href="contact.html" class="text-white text-decoration-none"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-3">
-            <h5 class="mb-4">Contact Info</h5>
-            <ul class="list-unstyled">
-              <li class="mb-3">
-                <i class="bi bi-geo-alt me-2"></i> Indra Ganesan College of
-                Engineering<br />
-                IG Valley, Manikandam,<br />
-                Thiruchirappalli - 620 012<br />
-                Tamil Nadu, India
-              </li>
-              <li class="mb-3">
-                <i class="bi bi-envelope me-2"></i> principal@igceng.com
-              </li>
-              <li class="mb-3">
-                <i class="bi bi-telephone me-2"></i> +91-431-1234567
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-3">
-            <h5 class="mb-4">Newsletter</h5>
-            <p>Subscribe to our newsletter for the latest updates.</p>
-            <div class="input-group mb-3">
-              <input
-                type="email"
-                class="form-control"
-                placeholder="Your email"
-              />
-              <button class="btn btn-primary" type="button">Subscribe</button>
-            </div>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h5 class="mb-4">Indra Ganesan College of Engineering</h5>
+          <p>
+            Premier institution committed to excellence in technical education
+            since 2008.
+          </p>
+          <span class="footer-badge">
+            <i class="bi bi-award me-1"></i> NAAC B++ Accredited
+          </span>
+          <div class="d-flex mt-4">
+            <a href="https://www.facebook.com/p/Indra-Ganesan-Institutions-100069961153286/"
+              class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/indra_ganesan_institutions/" class="text-white text-decoration-none"><i
+                class="bi bi-instagram"></i></a>
           </div>
         </div>
-        <hr class="my-4" />
-        <div class="row">
-          <div class="col-md-6">
-            <p class="mb-0">
-              Designed & Developed by
-              <a href="www.judahcodetechnologies.com"
-                >Juda Code Technologies.</a
-              >
-              © 2024 All rights reserved.
-            </p>
-          </div>
-          <div class="col-md-6 text-md-end">
-            <a href="#" class="text-white text-decoration-none me-3"
-              >Privacy Policy</a
-            >
-            <a href="#" class="text-white text-decoration-none"
-              >Terms of Service</a
-            >
+        <div class="col-lg-2">
+          <h5 class="mb-4">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="index.html" class="text-white text-decoration-none">Home</a>
+            </li>
+            <li class="mb-2">
+              <a href="about.html" class="text-white text-decoration-none">About</a>
+            </li>
+            <li class="mb-2">
+              <a href="courses.html" class="text-white text-decoration-none">Courses</a>
+            </li>
+            <li class="mb-2">
+              <a href="admissions.html" class="text-white text-decoration-none">Admissions</a>
+            </li>
+            <li class="mb-2">
+              <a href="contact.html" class="text-white text-decoration-none">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="mb-4">Contact Info</h5>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <i class="bi bi-geo-alt me-2"></i> Indra Ganesan College of
+              Engineering<br />
+              IG Valley, Manikandam,<br />
+              Thiruchirappalli - 620 012<br />
+              Tamil Nadu, India
+            </li>
+            <li class="mb-3">
+              <i class="bi bi-envelope me-2"></i> principal@igceng.com
+            </li>
+            <li class="mb-3">
+              <i class="bi bi-telephone me-2"></i> +91-431-1234567
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="mb-4">Newsletter</h5>
+          <p>Subscribe to our newsletter for the latest updates.</p>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Your email" />
+            <button class="btn btn-primary" type="button">Subscribe</button>
           </div>
         </div>
       </div>
-    </footer>
+      <hr class="my-4" />
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-0">
+            Designed & Developed by
+            <a href="www.judahcodetechnologies.com">Juda Code Technologies.</a>
+            © 2024 All rights reserved.
+          </p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+          <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>

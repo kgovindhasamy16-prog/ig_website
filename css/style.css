@@ -2338,3 +2338,8 @@ body {
     flex: none !important;
   }
 }
+
+/* Prevent wrapping in dropdown items */
+.dropdown-menu .dropdown-item {
+  white-space: nowrap;
+}
